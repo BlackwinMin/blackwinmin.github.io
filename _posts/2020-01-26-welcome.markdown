@@ -2,5 +2,14 @@
 layout: post
 title:  "测试文章标题"
 date:  2020-01-26
+author: Minja
+header-img: img/1500x500.jpeg
+catalog: true
+tags:
+    - test1
+    - test2
 ---
+
 测试正文
+
+[link](nothing)

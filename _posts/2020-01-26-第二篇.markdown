@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "第二篇"
+date:  2020-01-26
+author: Minja
+---
+
+测试正文
+
+[link](nothing)

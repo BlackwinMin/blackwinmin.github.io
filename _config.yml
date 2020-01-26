@@ -26,12 +26,12 @@ texture:
   showNav: false
   showPicker: false
 
-  # generate social links in footer
-  social_links:
-    twitter: Minja_Rin
-    github:  BlackwinMin
-    weibo: Minja-Rin
-    rss: rss
+# generate social links in footer
+social_links:
+  twitter: Minja_Rin
+  github:  BlackwinMin
+  weibo: Minja-Rin
+  rss: rss
  
 
 # If you want to link only specific pages in your header, uncomment

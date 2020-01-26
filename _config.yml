@@ -21,7 +21,7 @@ texture:
   title: Arithematic Minja
   tagline: Law, Writing and macOS Automation
   date_format: "%b %-d, %Y"
-  style: [yellow|red|black|blue|green|purple]
+  style: [red|black|blue|green|purple]
   showNav: false
   showPicker: true
 

@@ -1,3 +1,5 @@
+remote_theme: thelehhman/texture
+
 title: Arithematic Minja
 author: Minja
 email: blackwinmin@outlook.com
@@ -7,7 +9,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
 keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone" #关键词
-baseurl: /texture
+# baseurl: /texture
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -19,7 +21,7 @@ texture:
   title: Adam Denisov
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
-  style: black
+  style: [yellow|red|black|blue|green|purple]
   showNav: false
   showPicker: true
 

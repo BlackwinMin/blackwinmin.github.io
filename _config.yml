@@ -19,7 +19,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: Arithematic Minja
-  tagline: Developer. Designer
+  tagline: Law, Writing and macOS Automation
   date_format: "%b %-d, %Y"
   style: [yellow|red|black|blue|green|purple]
   showNav: false
@@ -29,6 +29,7 @@ texture:
   social_links:
     twitter: Minja_Rin
     github:  BlackwinMin
+    weibo_username: Minja-Rin
     rss: rss
  
 

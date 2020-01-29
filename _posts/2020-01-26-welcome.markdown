@@ -9,4 +9,4 @@ author: Minja
 
 [link](nothing)
 
-![link](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/_posts/img/1500x500.jpeg)
+![link](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2020-01-26-welcome/1500x500.jpeg)

@@ -1,11 +1,15 @@
-Title: [奇技淫巧]不再用 Markdown Editor
-Date: 2017-4-14 23:05
+---
+layout: post
+title:  "不再用 Markdown Editor"
+date:  2017-4-14
+author: Minja
+---
 
 Drafts 给了我在 iOS 上写作的美好体验，摘录模版、键盘拓展以及最犀利的 URL schemes & javascript 支持让我可以把所有文本相关的处理交给它。别和我提 Word，我没生存在一个工作环境那么糟的地方:)
 
 Drafts 不能跨操作系统使用，也不能在 Mac 上愉快地同步。一段时间里我被 Byword 的同步功能打动，每写一篇文章就导入 Byword。毫无便捷性可言。Drafts 不是一个纯粹的软件。直到我可以在手机上盲打出 Markdown 语法，于是我删除了 Drafts。它带给我的是 99% 的便捷和 1% 的强大，快速插入语法的特性是前者。现在，这是我的输入法设置：
 
-<center>![img](http://onf0m2glb.bkt.clouddn.com/20170411149192353273454.png)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-4-14-不再用-Markdown-Editor/20170411149192353273454.png)
 
 插入最基本的语法符号比使用键盘拓展更方便。选择一个符号后，可以做重复动作进行盲操作，直到用到下一个符号。这个操作便捷性是高于在键盘和键盘拓展间切换的，如同你不会喜欢打完字之后傻傻地选词一样。
 
@@ -13,7 +17,7 @@ Drafts 不能跨操作系统使用，也不能在 Mac 上愉快地同步。一�
 
 由于插图与插链接是靠 workflow 的，改用备忘录以后没有任何不便。只要乐意，在 VisualStudio 里你也可以输入一串 Markdown 格式的图片链接。下拉通知栏，然后等两秒：
 
-<center>![img](https://ooo.0o0.ooo/2017/04/12/58ed71c7b4d36.gif)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-4-14-不再用-Markdown-Editor/58ed71c7b4d36.gif)
 
 还有一个比较重要的，从美学上来说，备忘录一贯的黄色字体很好看。我不能忍紫色光标在刺眼的白色背景上跳动。新的备忘录延续了 iOS6 时代便签软件与 Pages 的设计，你可以看到美式拍纸与打字机的一丝影子。
 

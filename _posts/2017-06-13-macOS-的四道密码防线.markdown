@@ -18,20 +18,20 @@ author: Minja
 即每次打开盗版软件都会忠告你的家伙。你可以设为「space」，只要你买了 Apple watch ;)
 指令：`$passwd`
 
-![title](593fe1818a7c0.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-13-macOS-的四道密码防线/593fe1818a7c0.png)
 
 ## firmware
 固件密码，禁止从别的磁盘启动。据称 MacBook 12 是唯一不会被 USB-HID 攻击的 Mac，但你觉得一只 type-C-to-type-A 的转接头能让攻击者负担不起吗？
 开启：开机时按下 `Cmd+R`，使用「固件密码工具」
 
-![title](593fe08645071.jpg)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-13-macOS-的四道密码防线/593fe08645071.jpg)
 
 ## fireware
 
 磁盘加密。我不希望 Mac 好端端放桌上，SSD 却被人拔走。他们可以拔掉我的硬盘，但不能读取数据。
 指令： `$sudo fdesetup enable`
 
-![title](593fe15b8cf4a.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-13-macOS-的四道密码防线/593fe15b8cf4a.png)
 
 ## iCloud
 

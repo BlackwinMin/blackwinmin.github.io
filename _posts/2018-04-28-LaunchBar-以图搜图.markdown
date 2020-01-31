@@ -5,8 +5,6 @@ date:  2018-04-28
 author: Minja
 ---
 
-# LaunchBar 以图搜图
-
 更新：
 
 1. 支持识别 png、jpg 和 jpeg 等格式；

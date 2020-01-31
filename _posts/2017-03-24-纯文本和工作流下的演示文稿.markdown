@@ -9,13 +9,13 @@ author: Minja
 
 我希望自己能更多地使用标记语言进行流程化工作。前半句的道理在于，标记语言比起富文本，就像仅仅是磨碎了的咖啡豆，而富文本近似低温萃取加工的速溶咖啡粉，标记语言更原始，兼容度高，可塑性好。后半句的原因是，到了后 PC 时代，即使没有同事虎视眈眈地等着你交接，你自己也要用成熟的线性系统来提高效率，为行乐留出时间。
 
-![title](006tNc79gy1fhgugxhnn1g30sh0huh15.gif)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-03-24-纯文本和工作流下的演示文稿/006tNc79gy1fhgugxhnn1g30sh0huh15.gif)
 
 这样的工作方式适合许多领域，下面我想谈谈如此来做一份演示文稿。我拒绝使用 Powerpoint，我为什么要开着卡车去楼下买菜？如果你能接受 Prezi，你就没有任何理由从技术外来批判我。我目前使用 [reveal.js](http://lab.hakim.se/reveal-js/#/) 将纯文本转为演示文稿，支持一些不错的特效，编辑和发布不受硬件平台限制。下载一个 [reveal.js](http://lab.hakim.se/reveal-js/#/) 的包，打开里面的 demo.html 就能马上开始编辑了。
 
 下面是我的第一页演示：
 
-![title](006tNc79gy1fhguh4peikj30m80e63z3.jpg)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-03-24-纯文本和工作流下的演示文稿/006tNc79gy1fhguh4peikj30m80e63z3.jpg)
 
 它的代码是
 
@@ -32,7 +32,7 @@ author: Minja
 
 这是我的另一页演示：
 
-![title](006tNc79gy1fhguhaz8i1j30m80dr74a.jpg)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-03-24-纯文本和工作流下的演示文稿/006tNc79gy1fhguhaz8i1j30m80dr74a.jpg)
 
 它的代码稍微多一点
 
@@ -46,7 +46,7 @@ author: Minja
 ```
 以上的一切都可以纳入一些已有的工作流，或者说，与许多现有软硬件配合。我把 demo.html 里的代码拷贝进了 iPad 上的 Drafts 里，Drafts 的自定义键盘让我快速适应代码的输入。支持 Markdown 语法让它具备更多的排版可能。而且它可以导出 html，你知道我在说什么了吧。对于简单的演示，我甚至直接修改文字部分就好了。之后我通过 iCloud 或 Airdrop 把文档发回电脑。另外，由于 reveal.js 是支持触屏的，只要我乐意，在 iPad 上直接演示就很不错。事实上，在一只触屏设备上来回滑动切换，本来就比在电脑键盘上敲击方向键来得优雅自如。
 
-![title](006tNc79gy1fhguhklfgqj30hs0dcjui.jpg)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-03-24-纯文本和工作流下的演示文稿/006tNc79gy1fhguhklfgqj30hs0dcjui.jpg)
 
 有非常多的方法去做一份演示文稿。我组合了一套主要基于 iOS 设备的工作流，这非常适合我经常在上学/工作/出差间快速切换的环境。可能上午还在背日语单词，下午就去天才吧修电脑，晚饭都没吃就去外省谈项目。在移动设备上可以更出色地完成某些工作，快速而优雅。相比之下，Office 并不是落后的技术。我的工作方式也不是追求复古或者新潮。消极抵抗技术和消极守卫技术的人，和那些陷在全球变暖争论里不能自拔的家伙非常相像。
 

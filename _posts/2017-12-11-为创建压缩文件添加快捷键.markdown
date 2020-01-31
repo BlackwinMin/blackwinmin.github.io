@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "为创建压缩文件添加快捷键"
+date:  2017-12-11
+author: Minja
+---
+
+此前写过系列文章，对付解压；这篇针对创建压缩，非常简单，用不到任何自动化工具。
+
+「解压」选项位于右键菜单，不过菜单栏也有，故宜用系统设置添加快捷键。
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-12-11-为创建压缩文件添加快捷键/2017-12-11-Group.png)
+
+完成后选中文件，按下即可。可多选。
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-12-11-为创建压缩文件添加快捷键/2017-12-11-244.gif)
+
+压缩多用于发送文件，zip 格式最为通用。P7zip 的方法后续会介绍，将用到 AppleScript，稍显复杂。Rar 格式不会介绍，其并非开放的格式，避之不及。

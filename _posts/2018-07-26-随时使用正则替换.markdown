@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "随时使用正则替换"
+date:  2018-07-26
+author: Minja
+---
+
+遇到别字和不标准的排版，以前我会粘到文本编辑器里面进行批量替换。这种来回切换是低效的，有没有原地完成替换的方法？于是我做了一个 LaunchBar 动作。
+
+1. 选中文本；
+2. 启动动作；
+3. 输入替换前后的文本，支持正则表达式；
+4. 完成替换，自动粘贴。
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2018-07-26-随时使用正则替换/2018-07-26-%E6%AD%A3%E5%88%99%E6%9B%BF%E6%8D%A2.GIF)
+
+[> 动作下载](https://github.com/BlackwinMin/sspai-sample-script/blob/master/LaunchBar/Reg.lbaction.zip)
+
+脚本：
+
+```
+read -r -d '' applescriptCode1 <<'EOF'
+    set reg to text returned of (display dialog "请输入要替换的文本" default answer "哈哈")
+    return reg
+EOF
+
+read -r -d '' applescriptCode2 <<'EOF'
+    set pattern to text returned of (display dialog "请输入替换后的文本" default answer "呵呵")
+    return pattern
+EOF
+
+reg=$(osascript -e "$applescriptCode1")
+
+pattern=$(osascript -e "$applescriptCode2")
+
+echo $@ | sed 's/'$reg'/'$pattern'/g' | pbcopy
+
+osascript -e 'tell application "System Events" to key code 9 using command down'
+```

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "如何在 Mac 上快速提取屏幕颜色"
+date:  2018-01-04
+author: Minja
+---
+
+浏览网页，遇到好看的颜色想知道色号，遂找个取色工具。市面上往往是取色+跳色+管理三合一工具，价格不菲，多余功能我用不到，实在不想花这个钱。
+
+于是翻出了系统自带的 Digital Color Meter。其实这货可以用快捷键 `⌘Command+⇧Shift+C` 直接把当前像素的色值粘到剪贴板，我改成了更直观的 `⌘Command+C`，真趁手。
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2018-01-04-如何在-Mac-上快速提取屏幕颜色/2018-01-04-digital-color-meter.png)

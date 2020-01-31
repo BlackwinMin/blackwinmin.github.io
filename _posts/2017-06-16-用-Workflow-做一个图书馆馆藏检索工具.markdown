@@ -9,7 +9,7 @@ author: Minja
 
 我花一个早晨写了这个查询图书馆馆藏的 workflow，终于不用在一桌饲养场里小猪一样的自习者身边停下，忍受他们嗷嗷待哺的目光了：
 
-<center>![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251116127711.gif)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251116127711.gif)
 
 这个 workflow 的需求很简单：
 
@@ -25,19 +25,19 @@ http://......&SecSerchWord=&Titlie=四叠半&.......
 
 于是我写了这么一部分 workflow：
 
-<center>![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251307175935.png)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251307175935.png)
 
 但是我校返还的JSON是这样的：
 
-<center>![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251298258804.png)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251298258804.png)
 
 我是一个主动编码的优秀业余程序爱好者，但是这个网页的制作者太不负责了。我得从别的格式入手，于是我把它们解析成了富文本格式，可以得到一堆能编辑的文字。在这里，由于不能直接解析网页了，所以要用正则表达式匹配我需要内容：索书号。[.*索书号.*]的意思是匹配有「索书号」的那一整行。在我的另外一个 workflow 里，还涉及跨行匹配，那就另当别论了。
 
-<center>![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/2017041814925120937986.png)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/2017041814925120937986.png)
 
 先解析成 Markdown 是为了从网页转换过来，转换成富文本则是要摈弃 Markdown 的一些格式语法，以免出现这样的情况：
 
-<center>![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251312757362.png)</center>
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-16-用-Workflow-做一个图书馆馆藏检索工具/20170418149251312757362.png)
 
 最后，通过 ~~List~~ Alter 的方式直接在 Widget 显示
 

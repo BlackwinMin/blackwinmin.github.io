@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automator 环境变量"
-date:  2017-06-23
+date:  2017-06-07
 author: Minja
 ---
 

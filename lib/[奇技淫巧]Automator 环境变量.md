@@ -3,16 +3,16 @@ Title: [奇技淫巧]Automator 环境变量
 
 刚刚解决了 Automator 不能执行 shell 的历史遗留问题。遇到的情况是这样的：
 
-![img](http://ooo.0o0.ooo\/2017\/05\/01\/590753df69cf1.png)
+![title](590753df69cf1.png)
 
 Google 了一圈，有个别朋友（还真的有人坚守 Automator 啊）也在反应。没有解决方案，但是基本清楚了要改环境变量。虽然已经默认是 bash 了，再申明一下就好：
 
-![img](http://ooo.0o0.ooo\/2017\/05\/01\/59075479ad8fb.png)
+![title](59075479ad8fb.png)
 
 好了。顺手把搁置着的两个小工具写了：
 
-![img](http://ooo.0o0.ooo\/2017\/05\/01\/590753c2408e6.png)
+![title](590753c2408e6.png)
 
-![img](http://ooo.0o0.ooo\/2017\/05\/01\/590754c4c66bd.png)
+![title](590754c4c66bd.png)
 
 以上。

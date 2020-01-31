@@ -5,7 +5,7 @@ Title: [奇技淫巧]Automator 图床
 
 这是我实现的效果：
 
-<center>![img](https://ooo.0o0.ooo/2017/04/19/58f758d968cb3.gif)</center>
+![title](center>
 
 我要达到这样的目标：
 
@@ -19,15 +19,15 @@ Title: [奇技淫巧]Automator 图床
 
 我有一个思路：
 
-<center>![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75b887a542.png)</center>
+![title](center>
 
 我选择的图床是 sm.ms,当然无论这个产品免费与否，都要做好备份，不能把所有图片存在一个地方。来看一下它的 API：
 
-<center>![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f7614051bf1.png)</center>
+![title](center>
 
 想用 shell 来和它交互的话，只需要传递一个 smfile 的值就好了，它就是所需上传之图片在本地的路径。于是我有了这样的一段 Automator：
 
-![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75bb1848de.png)
+![title](58f75bb1848de.png)
 
 在这里，弄清楚变量是最必要的。文件作为输入，获得的是路径。然后执行一个 shell，用 curl 命令和网页交互：
 
@@ -35,7 +35,7 @@ curl -F smfile=@[FilePath] apiURL
 
 由于在 Automator 的 「do shellscript」 里不能直接使用「变量」，所以要靠「$@」来把上一步获得的文件路径传递到 shell 脚本里。然后网站会返回一堆数据，里面就包含了我需要的 URL。但是我还要用「>>」把 curl 的输出导进一份临时文本，以便接下来用 grep 取出 URL。得到 URL 后用 pbcopy 把结果复制到系统剪贴板。接下来，把链接处理成 Markdown 的格式：
 
-![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75e5abf898.png)
+![title](58f75e5abf898.png)
 
 这里用了一个简单的 javascript 脚本来组合文本。要注意这一步的输入，得先取得一下系统剪贴板内容。这段代码跑完后链接就拷贝到剪贴板了。最后的一段 shell 用来删掉刚才的临时文件。
 
@@ -46,7 +46,7 @@ curl -F smfile=@[FilePath] apiURL
 
 现在就很棒了：
 
-![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f7621c4df36.png)
+![title](58f7621c4df36.png)
 
 ****
 

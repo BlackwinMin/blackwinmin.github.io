@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Ps 批处理 腾出时间看电影"
+date:  2017-06-17
+author: Minja
+---
+
+SOHO 可怕在 7*24 强制工作，可预想乃 7*24 自由工作。拯救时间，须自动化。
+
+传好近百份文件，得知：改下分辨率。又回复：改尺寸。不能忍。
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-17-Ps-批处理-腾出时间看电影/594544c197774.png)
+
+Ps 可用脚本，然字典单薄，故批处理：窗口-动作，录制所为；文件-自动-创建快捷批处理，即可。
+
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-17-Ps-批处理-腾出时间看电影/59454585e821b.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-17-Ps-批处理-腾出时间看电影/594545a5792f5.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-17-Ps-批处理-腾出时间看电影/594545ad8f096.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-17-Ps-批处理-腾出时间看电影/594545b69aed4.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-17-Ps-批处理-腾出时间看电影/594545c553479.png)
+
+
+收工，打开 bilibili.com 。

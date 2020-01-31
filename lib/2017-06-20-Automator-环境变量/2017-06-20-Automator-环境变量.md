@@ -1,4 +1,10 @@
-Title: [奇技淫巧]Automator 环境变量
+---
+layout: post
+title:  "Automator 环境变量"
+date:  2017-06-23
+author: Minja
+---
+
 最近刚给博客系统缴了年费，然而结果是和迅雷充完会员就不想看电影了一样。
 
 刚刚解决了 Automator 不能执行 shell 的历史遗留问题。遇到的情况是这样的：

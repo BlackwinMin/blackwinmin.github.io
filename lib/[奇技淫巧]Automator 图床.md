@@ -5,7 +5,7 @@ Title: [奇技淫巧]Automator 图床
 
 这是我实现的效果：
 
-![title](center>
+<center>![img](https://ooo.0o0.ooo/2017/04/19/58f758d968cb3.gif)</center>
 
 我要达到这样的目标：
 
@@ -19,19 +19,21 @@ Title: [奇技淫巧]Automator 图床
 
 我有一个思路：
 
-![title](center>
+<center>![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75b887a542.png)</center>
 
 我选择的图床是 sm.ms,当然无论这个产品免费与否，都要做好备份，不能把所有图片存在一个地方。来看一下它的 API：
 
-![title](center>
+<center>![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f7614051bf1.png)</center>
 
 想用 shell 来和它交互的话，只需要传递一个 smfile 的值就好了，它就是所需上传之图片在本地的路径。于是我有了这样的一段 Automator：
 
-![title](58f75bb1848de.png)
+![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75bb1848de.png)
 
 在这里，弄清楚变量是最必要的。文件作为输入，获得的是路径。然后执行一个 shell，用 curl 命令和网页交互：
 
+```
 curl -F smfile=@[FilePath] apiURL
+```
 
 由于在 Automator 的 「do shellscript」 里不能直接使用「变量」，所以要靠「$@」来把上一步获得的文件路径传递到 shell 脚本里。然后网站会返回一堆数据，里面就包含了我需要的 URL。但是我还要用「>>」把 curl 的输出导进一份临时文本，以便接下来用 grep 取出 URL。得到 URL 后用 pbcopy 把结果复制到系统剪贴板。接下来，把链接处理成 Markdown 的格式：
 
@@ -52,12 +54,10 @@ curl -F smfile=@[FilePath] apiURL
 
 网页交互参考：
 
-→[Workflow + Drafts + 七牛云，用更酷的姿势写作 - 少数派](https://sspai.com/post/36990)
-
-→[使用七牛云存储和alfred的workflow简化markdown贴图流程 - 简书](http://www.jianshu.com/p/2272e996cb36)
-
-→[Workflow 教程（八）：利用新的请求方法打造 Web 小程序 - 少数派](https://sspai.com/post/35857)
+- [Workflow + Drafts + 七牛云，用更酷的姿势写作 - 少数派](https://sspai.com/post/36990)
+- [使用七牛云存储和alfred的workflow简化markdown贴图流程 - 简书](http://www.jianshu.com/p/2272e996cb36)
+- [Workflow 教程（八）：利用新的请求方法打造 Web 小程序 - 少数派](https://sspai.com/post/35857)
 
 javascript 参考：
 
-→[用Automator实现网页标题自动存为Markdown文字超链接格式 - 简书](http://www.jianshu.com/p/40d9b0961317)
+- [用Automator实现网页标题自动存为Markdown文字超链接格式 - 简书](http://www.jianshu.com/p/40d9b0961317)

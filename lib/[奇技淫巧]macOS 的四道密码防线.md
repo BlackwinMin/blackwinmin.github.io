@@ -1,0 +1,42 @@
+Title: [奇技淫巧]macOS 的四道密码防线
+Date: 2017-06-13 21:00
+
+我们待电脑为情人，视账号如正房，设密码同招妓。虽不愿承认，但多数人的电脑不堪一击：形同虚设的密码，完全关闭的固件保护。精心的设计百密一疏，轻视的态度堤溃蚁穴。
+
+常怀小人心思，任何 Mac 设备都应该设定这四道防线：
+ 
+* userpasswd 用户密码
+* firmware 固件密码
+* fireware 磁盘加密
+* iCloud 苹果账号
+
+##userpasswd
+即每次打开盗版软件都会忠告你的家伙。你可以设为「space」，只要你买了 Apple watch ;)
+指令：
+$passwd
+
+![img](http://ooo.0o0.ooo\/2017\/06\/13\/593fe1818a7c0.png)
+
+##firmware
+固件密码，禁止从别的磁盘启动。据称 MacBook 12 是唯一不会被 USB-HID 攻击的 Mac，但你觉得一只 type-C-to-type-A 的转接头能让攻击者负担不起吗？
+开启：开机时 cmd+R，使用「固件密码工具」
+
+![img](http://ooo.0o0.ooo\/2017\/06\/13\/593fe08645071.jpg)
+
+##fireware
+磁盘加密。我不希望 Mac 好端端放桌上，SSD 却被人拔走。他们可以拔掉我的硬盘，但不能读取数据。
+指令：
+$sudo fdesetup enable 
+
+![img](http://ooo.0o0.ooo\/2017\/06\/13\/593fe15b8cf4a.png)
+
+##iCloud
+帮助你找回丢失的 Mac
+
+以上。
+
+****
+
+参考
+→[Lock it Down Part II: How to Secure Your Firmware and Access Computers Remotely - ITS Tactical](http://www.itstactical.com/digicom/security/secure-firmware-access-computers-remotely/)
+→[在 Mac 上使用固件密码 - Apple 支持](https://support.apple.com/zh-cn/HT204455)

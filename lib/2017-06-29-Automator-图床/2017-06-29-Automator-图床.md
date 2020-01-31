@@ -1,11 +1,17 @@
-Title: [奇技淫巧]Automator 图床
+---
+layout: post
+title:  "Automator 图床"
+date:  2017-06-29
+author: Minja
+---
+
 如果你还在写博客，如果你还在用图床（而不是微博和 QQ 空间），如果你企图用自动化工具在写作时插链接和图片，会发现可供选用的软件太多了，但是少有纯粹优雅的。
 
 在手机上，借助拥有「魔法变量」与正则表达的 Workflow，我很快写了一个小插件。而在 MacBook 上虽然有着更多选择（Python 脚本、Alfred 工作流乃至图床软件），我却倾向于用 shell 写一个更优雅的。毕竟，没人愿意和一个“在 Automator 里通过 shell 调用 python 并且要下载莫名其妙的项目”的家伙聊天。不幸的是我暂时还没有能完全自如使用 shell，所以有一段代码是用 javascript 写的。相信我，它们太好理解了，像写在美式拍纸上的 Taskpaper！以至于我列购物清单的时候都喜欢组织成 javascript（你也可以理解为 Python :D）的语法格式。
 
 这是我实现的效果：
 
-<center>![img](https://ooo.0o0.ooo/2017/04/19/58f758d968cb3.gif)</center>
+![title](58f758d968cb3.gif)
 
 我要达到这样的目标：
 
@@ -19,15 +25,15 @@ Title: [奇技淫巧]Automator 图床
 
 我有一个思路：
 
-<center>![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75b887a542.png)</center>
+![title](58f75b887a542.png)
 
 我选择的图床是 sm.ms,当然无论这个产品免费与否，都要做好备份，不能把所有图片存在一个地方。来看一下它的 API：
 
-<center>![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f7614051bf1.png)</center>
+![title](58f7614051bf1.png)
 
 想用 shell 来和它交互的话，只需要传递一个 smfile 的值就好了，它就是所需上传之图片在本地的路径。于是我有了这样的一段 Automator：
 
-![img](https://ooo.0o0.ooo\/2017\/04\/19\/58f75bb1848de.png)
+![title](58f75bb1848de.png)
 
 在这里，弄清楚变量是最必要的。文件作为输入，获得的是路径。然后执行一个 shell，用 curl 命令和网页交互：
 

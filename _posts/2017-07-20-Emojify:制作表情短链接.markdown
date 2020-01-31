@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Emojify：制作表情短链接"
+date:  2017-07-20
+author: Minja
+---
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-07-20-Emojify:制作表情短链接/33328c8ef21b9f92f88f4eddad5b175d.jpeg)
+
+冗长的纯文字链接让人感到乏味，不如做个带 emoji 的短链接▼
+
+http://🎖.tk/3qA
+
+http://🥇.tk/3qA
+
+http://🥈.tk/3qA
+
+如何制作？
+这种短链用到了 Emojify 的服务，它只有一个简单的 web 页面，可以把网址转为带有 emoji 表情的短链接▼
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-07-20-Emojify:制作表情短链接/bcc92e8327c5a218e619aa5e61f1ebca)
+
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-07-20-Emojify:制作表情短链接/56936d87d09801e1823ca0d732884441.png)
+
+生成的网址是可以在浏览器里打开的。需要注意的是 ，这个链接不能被微信直接识别打开，小子建议仅仅拿它来为文字增色。
+
+***
+
+链接：[Emojify🤣](http://emojify.tk)

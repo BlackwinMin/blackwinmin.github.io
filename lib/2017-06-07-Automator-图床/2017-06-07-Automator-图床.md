@@ -60,9 +60,9 @@ curl -F smfile=@[FilePath] apiURL
 
 网页交互参考：
 
-- [Workflow + Drafts + 七牛云，用更酷的姿势写作 - 少数派](https://sspai.com/post/36990)
+- [Workflow + Drafts + 七牛云，用更酷的姿势写作](https://sspai.com/post/36990)
 - [使用七牛云存储和alfred的workflow简化markdown贴图流程 - 简书](http://www.jianshu.com/p/2272e996cb36)
-- [Workflow 教程（八）：利用新的请求方法打造 Web 小程序 - 少数派](https://sspai.com/post/35857)
+- [Workflow 教程（八）：利用新的请求方法打造 Web 小程序](https://sspai.com/post/35857)
 
 javascript 参考：
 

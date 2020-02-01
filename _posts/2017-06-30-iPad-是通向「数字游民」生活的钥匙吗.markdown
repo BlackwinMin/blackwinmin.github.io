@@ -5,6 +5,8 @@ date:  2017-06-30
 author: Minja
 ---
 
+## Digital Nomads’ Tools
+
 ![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2017-06-30-iPad-是通向「数字游民」生活的钥匙吗/5953a3dbdc7c1.jpg)
 
 有一种新的生活方式「Digital Nomad」，「简单地说就是利用基于互联网上的自由职业或者创业产生的收入来支持自己不受地点约束的生活和旅行」，而数字游民的装备里，一定少不了电子设备。我尝试用超轻的 iPad mini4 作为我出门在外的「生产力设备」，在半年的时间内，从激情到平和，磨合到惜别。
@@ -45,6 +47,8 @@ iPad 越来越强大了，更好的硬件，原生 Drag and Drop 操作，文件
 
 ***
 
-参考链接：[（扫盲贴）什么是数字游民（Digital Nomad)生活方式？ | Jarodise](http://jarodise.com/definition/)
+参考链接
+
+→[（扫盲贴）什么是数字游民（Digital Nomad)生活方式？ | Jarodise](http://jarodise.com/definition/)
 
 ps：以上在 iPhone note.app 完成，如无必要，不开 Drafts。

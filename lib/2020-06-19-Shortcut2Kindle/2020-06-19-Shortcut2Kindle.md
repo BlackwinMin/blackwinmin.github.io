@@ -1,4 +1,9 @@
-# 用 Shortcuts 将 Kindle 书摘批量导入 Evernote
+---
+layout: post
+title:  "用 Shortcuts 将 Kindle 书摘批量导入 Evernote"
+date:  2020-06-19
+author: Minja
+---
 
 喜欢读书的人，往往也乐于做书摘；有了一定数量的书摘后，就需要妥善管理它们。
 

@@ -32,4 +32,3 @@ author: Minja
 - [最高法-司法数据](https://feed43.com/1448020880164308.xml)
 - [最高法-司法文件](https://feed43.com/5112820011062838.xml)
 - [最高法-标准化工作](https://feed43.com/5205573751224664.xml)
-- [王迁的BLOG](http://blog.sina.com.cn/rss/1185075701.xml)

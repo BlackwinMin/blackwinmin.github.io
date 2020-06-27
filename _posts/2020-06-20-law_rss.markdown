@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "一些法律相关信息的 RSS 订阅地址（更新 2020-06-21）"
-date:  2020-06-21
+title:  "一些法律相关信息的 RSS 订阅地址（更新 2020-06-28）"
+date:  2020-06-28
 author: Minja
 ---
 
 所有 RSS 链接均通过 [Feed43](https://feed43.com) 自制，最高人民法院的订阅地址网上可查，故未收录。
 
-![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2020-06-20-law_rss/img.png)
+![title](https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2020-06-20-law_rss/https://raw.githubusercontent.com/BlackwinMin/blackwinmin.github.io/master/lib/2020-06-20-law_rss/img.png)
 
 - [最高法-司法数据](https://feed43.com/1448020880164308.xml)
 - [最高法-司法文件](https://feed43.com/5112820011062838.xml)
@@ -37,3 +37,12 @@ author: Minja
 - [中南财经-论文-商标](https://feed43.com/6042608835174185.xml)
 - [中南财经-论文-基础理论](https://feed43.com/6622664174085253.xml)
 - [中南财经-论文-著作权](https://node2.feed43.com/3156030438278317.xml)
+- [国知局-工作通知](https://feed43.com/4185308636663827.xml)
+- [国知局-局公告](https://feed43.com/8731836451748024.xml)
+- [国知局-地理标志和官方标志公告](https://feed43.com/1340513200138364.xml)
+- [国知局-政策解读](https://feed43.com/1578212036522101.xml)
+- [国知局-图解](https://feed43.com/3481722165422702.xml)
+- [国知局-知识产权工作](https://feed43.com/5382687051027512.xml)
+- [国知局-地方动态](https://feed43.com/2358331587135242.xml)
+- [国知局-媒体视点](https://feed43.com/4182086558146105.xml)
+- [国知局-国务院文件](https://feed43.com/3632771545031241.xml)
